@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navtop">
+        <div class="navtop__text">
+          <span class="navtop__questions">Questions? Need Help?</span>
+          <a href="tel:(+123) 456 1500"> Call us on (+123) 456 1500</a>
+        </div>
+        <div class="navtop__links">
+          <div class="navtop__gift">
+            <a href="#"><img src="img/navtop__gift.svg" alt="gift" /></a>
+            <span class="navtop__links-text">BTP Gift Card</span>
+          </div>
+          <div class="navtop__gift">
+            <a href="#"><img src="img/navtop__star.svg" alt="star" /></a>
+            <span class="navtop__links-text">Loyalty Program</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="container">
+        <div class="navbar__inner">
+          <div class="navbar__title">
+            <a href="#">Best <span class="red">tour</span> plan</a>
+          </div>
+          <form class="navbar__form" action="#">
+            <input class="navbar__search" type="search" name="#" id="#" placeholder="Search Location" />
+            <a href="#"><img src="img/header__navbar_search.svg" /></a>
+          </form>
+          <div class="cart">
+            <a href="#"><img src="img/shopping-cart.svg" alt="cart" /></a>
+            <div class="cart__number">2</div>
+            <div class="profile">
+              <a href="#"><img src="img/user.png" />User</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar__bottom">
+      <div class="container">
+        <div class="burger__menu">
+          <a href="#" class="burger__menu-button">
+            <span class="burger__menu-lines"></span>
+          </a>
+          <nav class="menu menu--paddingTop">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="#" class="menu__list-link">All Deals</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Hotels</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Activities</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Hotel Day Packages</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Restaurants</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Events</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Rodrigues</a></li>
+            </ul>
+          </nav>
+          <div class="burger__menu-overlay"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hotel">
+      <div class="container">
+        <div class="hotel__top">
+          <div class="hotel__name">
+            <div class="hotel__stars">
+              <img src="img/hotel__stars.png" alt="stars" />
+            </div>
+            <div class="hotel__title">
+              <h1>GRAND HILTON HOTEL</h1>
+              <a class="hotel__flash-offer" href="#">Flash Offer</a>
+            </div>
+            <p class="hotel__offers">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</p>
+          </div>
+          <div class="rating">
+            <h5 class="rating__title">User Rattings</h5>
+            <p>4.5/5</p>
+          </div>
+        </div>
+        <div class="slider__main">
+          <div class="slider">
+            <div class="slider__item">
+              <img src="img/slider__item1.jpg" alt="slider" />
+            </div>
+            <div class="slider__item">
+              <img src="img/slider__item2.jpg" alt="slider" />
+            </div>
+            <div class="slider__item">
+              <img src="img/slider__item3.jpg" alt="slider" />
+            </div>
+          </div>
+          <div class="price_and_map__block">
+            <div class="price__card">
+              <div class="price">
+                <p>price starts as<br /><span>$ 8,500</span><br />per room / night</p>
+                <h4>Quick Booking</h4>
+              </div>
+              <div class="info">
+                <img src="img/price__user.svg" alt="user" />
+                <span>2 x Guests</span>
+                <img src="img/price_home.svg" alt="home" />
+                <span>1 x Room</span>
+                <img src="img/price_phone-call.svg" alt="call" />
+                <a href="tel:12100">12100</a>
+              </div>
+              <a class="price__button" href="#">View Other Options</a>
+            </div>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe width="350" height="220" id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=hayes%20valley&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                  href="https://embedgooglemap.net/139/"></a>
+              </div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 220px;
+                  width: 350px;
+                }
+
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 220px;
+                  width: 350px;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+
+        <nav class="menu menu--paddingTop cards__menu">
+          <ul class="menu__list menu__list-bottom">
+            <li class="menu__list-item menu__list-item-bottom">
+              <a href="#" class="menu__list-link menu__list-link--active">Package Summery</a>
+            </li>
+
+            <li class="menu__list-item menu__list-bottom--item">
+              <a href="#" class="menu__list-link">Hotel Information</a>
+            </li>
+
+            <li class="menu__list-item menu__list-bottom--item">
+              <a href="#" class="menu__list-link">Rooms</a>
+            </li>
+
+            <li class="menu__list-item menu__list-bottom--item">
+              <a href="#" class="menu__list-link">Facilities & Activities</a>
+            </li>
+
+            <li class="menu__list-item menu__list-bottom--item">
+              <a href="#" class="menu__list-link">Dining & Entertainment</a>
+            </li>
+
+            <li class="menu__list-item menu__list-bottom--item">
+              <a href="#" class="menu__list-link">Reviews </a>
+            </li>
+
+            <li class="menu__list-item menu__list-bottom--item">
+              <a href="#" class="menu__list-link">Questions & Answers</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <section class="package">
+      <div class="container">
+        <div class="package__title">
+          <h2>Package Summery</h2>
+        </div>
+        <div class="package__inner">
+          <div class="package__card">
+            <div class="package__card-name">Package Highlights</div>
+            <div class="card__inner">
+              <ul class="card__list">
+                <li class="card__list-item"><a href="#" class="card__list-link">Half Board/ All Inclusive</a></li>
+                <li class="card__list-item">
+                  <a href="#" class="card__list-link">Child Under 11 Years Stay Free</a>
+                </li>
+                <li class="card__list-item"><a href="#" class="card__list-link">LUX* Me Spa</a></li>
+              </ul>
+
+              <ul class="card__list">
+                <li class="card__list-item"><a href="#" class="card__list-link">Luxurious 5-Star Hotel</a></li>
+                <li class="card__list-item"><a href="#" class="card__list-link">Banyan An Adult Only Zone</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="package__card">
+            <div class="package__card-name">Offer Details</div>
+            <div class="card__inner">
+              <ul class="card__list">
+                <li class="card__list-item card__list-item--width">
+                  <a href="#" class="card__list-link">Benefit from a special discounted CHILL’OUT OFFER at Grand Hilton
+                    Hotel.</a>
+                </li>
+              </ul>
+
+              <ul class="card__list">
+                <li class="card__list-item card__list-item--calendar"><a href="#" class="card__list-link">10th March -
+                    30th April 2020</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="package__card package__big-card">
+          <div class="package__card-name">Package Summery Details</div>
+          <div class="card__inner">
+            <ul class="card__list">
+              <div class="card__top-name">
+                Purchase Inclusions
+              </div>
+              <li class="card__list-item"><a href="#" class="card__list-link">Room as per selection</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Half Board or All Inclusive Meal Plan</a>
+              </li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Complimentary Land & Water activities</a>
+              </li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Child Under 11 years old stays free</a>
+              </li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Free Wi-Fi</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Free Secure Parking</a></li>
+            </ul>
+
+            <ul class="card__list">
+              <div class="card__top-name">
+                Complimentary Land Based Activities
+              </div>
+              <li class="card__list-item"><a href="#" class="card__list-link">Gym</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Beach Volley</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Table tennis</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Soccer balls</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Yoga</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Unlimited access to driving range</a></li>
+            </ul>
+            <ul class="card__list">
+              <div class="card__top-name">Complimentary Water Based Activities</div>
+              <li class="card__list-item"><a href="#" class="card__list-link">Water skiing</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Windsurfing</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Pedal boats</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Kayaking</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Aqua Gym</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Glass bottom boat trips</a></li>
+            </ul>
+          </div>
+          <hr>
+          <div class="card__inner card__inner2">
+            <ul class="card__list">
+              <div class="card__top-name">Meal Plan Available</div>
+              <li class="card__list-item"><a href="#" class="card__list-link">Half Board</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">All Inclusive</a></li>
+            </ul>
+
+            <ul class="card__list ">
+              <div class="card__top-name">Entertainment</div>
+              <li class="card__list-item"><a href="#" class="card__list-link">Live music</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">DJ & Mauritian Dance Show</a></li>
+            </ul>
+
+            <ul class="card__list">
+              <div class="card__top-name">Check In & Check Out</div>
+              <li class="card__list-item"><a href="#" class="card__list-link">Check In Time 14:00</a></li>
+              <li class="card__list-item"><a href="#" class="card__list-link">Check Out Time 11:00</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="container">
+        <div class="review__title title__top">
+          Other Packages
+        </div>
+        <div class="img__inner">
+          <div class="img__small-main  wow animate__animated animate__zoomIn">
+            <img src="img/img__card2.jpg" alt="image">
+            <div class="img__flashOffer">Flash Offer</div>
+            <div class="img__small-descr">
+              <h4 class="card__descr-name">LUX* Belle Mare</h4>
+              <ul class="card__descr-icon card__descr-icon--height">
+                <li class="card__descr-item">1749 Wheeler Ridge Delaware</li>
+                <li class="card__descr-item card__descr-item--user">2 x Guests</li>
+                <li class="card__descr-item card__descr-item--home">1 x Room</li>
+              </ul>
+              <div class="price__main">
+                <div class="price__main-card">
+                  <span class="old__price">$ 8,500</span>
+                  <p class="new__price">$ 3,000</p>
+                </div>
+                <a class="price__main-button" href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="img__small-main  wow animate__animated animate__zoomIn">
+            <img src="img/img__card2.jpg" alt="image">
+            <div class="img__flashOffer">Flash Offer</div>
+            <div class="img__small-descr">
+              <h4 class="card__descr-name">LUX* Belle Mare</h4>
+              <ul class="card__descr-icon card__descr-icon--height">
+                <li class="card__descr-item">1749 Wheeler Ridge Delaware</li>
+                <li class="card__descr-item card__descr-item--user">2 x Guests</li>
+                <li class="card__descr-item card__descr-item--home">1 x Room</li>
+              </ul>
+              <div class="price__main">
+                <div class="price__main-card">
+                  <span class="old__price">$ 8,500</span>
+                  <p class="new__price">$ 3,000</p>
+                </div>
+                <a class="price__main-button" href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="img__small-main  wow animate__animated animate__zoomIn">
+            <img src="img/img__card2.jpg" alt="image">
+            <div class="img__flashOffer">Flash Offer</div>
+            <div class="img__small-descr">
+              <h4 class="card__descr-name">LUX* Belle Mare</h4>
+              <ul class="card__descr-icon card__descr-icon--height">
+                <li class="card__descr-item">1749 Wheeler Ridge Delaware</li>
+                <li class="card__descr-item card__descr-item--user">2 x Guests</li>
+                <li class="card__descr-item card__descr-item--home">1 x Room</li>
+              </ul>
+              <div class="price__main">
+                <div class="price__main-card">
+                  <span class="old__price">$ 8,500</span>
+                  <p class="new__price">$ 3,000</p>
+                </div>
+                <a class="price__main-button" href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="img__small-main  wow animate__animated animate__zoomIn">
+            <img src="img/img__card3.jpg" alt="image">
+            <div class="img__flashOffer">Flash Offer</div>
+            <div class="img__small-descr">
+              <h4 class="card__descr-name">White Palace</h4>
+              <ul class="card__descr-icon card__descr-icon--height">
+                <li class="card__descr-item">1749 Wheeler Ridge Delaware</li>
+                <li class="card__descr-item card__descr-item--user">2 x Guests</li>
+                <li class="card__descr-item card__descr-item--home">1 x Room</li>
+              </ul>
+              <div class="price__main">
+                <div class="price__main-card">
+                  <span class="old__price">$ 10,500</span>
+                  <p class="new__price">$ 9,500</p>
+                </div>
+                <a class="price__main-button" href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="img__small-main  wow animate__animated animate__zoomIn">
+            <img src="img/img__card4.jpg" alt="image">
+            <div class="img__flashOffer">Flash Offer</div>
+            <div class="img__small-descr">
+              <h4 class="card__descr-name">Luxury Place</h4>
+              <ul class="card__descr-icon card__descr-icon--height">
+                <li class="card__descr-item">1749 Wheeler Ridge Delaware</li>
+                <li class="card__descr-item card__descr-item--user">2 x Guests</li>
+                <li class="card__descr-item card__descr-item--home">1 x Room</li>
+              </ul>
+              <div class="price__main">
+                <div class="price__main-card">
+                  <span class="old__price">$ 4,500</span>
+                  <p class="new__price">$ 2,500</p>
+                </div>
+                <a class="price__main-button" href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="img__small-main  wow animate__animated animate__zoomIn">
+            <img src="img/img__card5.jpg" alt="image">
+            <div class="img__flashOffer">Flash Offer</div>
+            <div class="img__small-descr">
+              <h4 class="card__descr-name">Hotel Five Star</h4>
+              <ul class="card__descr-icon card__descr-icon--height">
+                <li class="card__descr-item">1749 Wheeler Ridge Delaware</li>
+                <li class="card__descr-item card__descr-item--user">2 x Guests</li>
+                <li class="card__descr-item card__descr-item--home">1 x Room</li>
+              </ul>
+              <div class="price__main">
+                <div class="price__main-card">
+                  <span class="old__price">$ 6,500</span>
+                  <p class="new__price">$ 3,500</p>
+                </div>
+                <a class="price__main-button" href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guest">
+      <div class="container">
+        <div class="title__top">
+          What people thinks about us
+        </div>
+      </div>
+      <div class="guest__slider">
+        <div class="guest__slider-main">
+          <div class="guest__slider-item">
+            <div class="guest__slider-img"></div>
+            <div class="guest__info">
+              <h4 class="guest__info-name">Megan Fox</h4>
+              <span class="guest__info-date">Stayed 18 Nov, 2019</span>
+              <img src="img/hotel__stars.png" alt="stars">
+            </div>
+            <div class="guest__slider-text">
+              It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well.
+              Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were
+              in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also
+              very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self
+              location in a narrow street is not good. Overall it was a good experience and could recommend.
+            </div>
+          </div>
+
+
+          <div class="guest__slider-item">
+            <div class="guest__slider-img"></div>
+            <div class="guest__info">
+              <h4 class="guest__info-name">Megan Fox</h4>
+              <span class="guest__info-date">Stayed 18 Nov, 2019</span>
+              <img src="img/hotel__stars.png" alt="stars">
+            </div>
+            <div class="guest__slider-text">
+              It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well.
+              Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were
+              in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also
+              very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self
+              location in a narrow street is not good. Overall it was a good experience and could recommend.
+            </div>
+          </div>
+
+          <div class="guest__slider-item">
+            <div class="guest__slider-img"></div>
+            <div class="guest__info">
+              <h4 class="guest__info-name">Megan Fox</h4>
+              <span class="guest__info-date">Stayed 18 Nov, 2019</span>
+              <img src="img/hotel__stars.png" alt="stars">
+            </div>
+            <div class="guest__slider-text">
+              It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well.
+              Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were
+              in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also
+              very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self
+              location in a narrow street is not good. Overall it was a good experience and could recommend.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter__inner">
+        <div class="container">
+          <div class="newsletter__main">
+            <div class="newsletter__main-title">
+              <span class="newsletter__main-suptitle">subscribe to our</span>
+              <h3 class="newsletter__main-subtitle">Newsletter</h3>
+            </div>
+            <form class="newsletter__form" action="#">
+              <input class="newsletter__form-email" type="email" name="#" id="#" placeholder="Your email address">
+              <a class="newsletter__form-button" href="#">send</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="activities">
+      <div class="container">
+        <div class="activities__title">
+          Other Activities
+        </div>
+        <div class="portfolio">
+          <ul class="portfolio__inner">
+            <li class="portfolio__item wow animate__animated animate__zoomIn">
+              <span class="portfolio__descr">The curious corner
+                of chamarel <br>
+                <a class="portfolio__button" href="#">Book Now</a>
+              </span>
+              <img class="portfolio__img" src="img/activities__img1.png" alt="image">
+            </li>
+
+            <li class="portfolio__item wow animate__animated animate__zoomIn">
+              <span class="portfolio__descr">Gymkhana club golf
+                course <br>
+                <a class="portfolio__button" href="#">Book Now</a>
+              </span>
+              <img class="portfolio__img" src="img/activities__img2.png" alt="image">
+            </li>
+
+            <li class="portfolio__item wow animate__animated animate__zoomIn ">
+              <span class="portfolio__descr">Tamarind falls hiking
+                trip - full day <br>
+                <a class="portfolio__button" href="#">Book Now</a>
+              </span>
+              <img class="portfolio__img" src="img/activities__img3.png" alt="image">
+            </li>
+
+            <li class="portfolio__item wow animate__animated animate__zoomIn ">
+              <span class="portfolio__descr">The blue marine discovery
+                quest <br>
+                <a class="portfolio__button" href="#">Book Now</a>
+              </span>
+              <img class="portfolio__img" src="img/activities__img4.png" alt="image">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__top-logo">
+          <a href="#">Best <span class="red">tour</span> plan</a>
+        </div>
+
+        <nav class="footer__menu">
+          <div class="footer__menu-title">ALL CATEGORIES</div>
+          <ul class="footer__menu-list">
+            <li class="footer__list-item"><a href="#">All Deals</a></li>
+            <li class="footer__list-item"><a href="#">Hotels</a></li>
+            <li class="footer__list-item"><a href="#">Activities</a></li>
+            <li class="footer__list-item"><a href="#">Spa Packages</a></li>
+            <li class="footer__list-item"><a href="#">Hotel Day Packages</a></li>
+            <li class="footer__list-item"><a href="#">Restaurants</a></li>
+            <li class="footer__list-item"><a href="#">Fitness</a></li>
+            <li class="footer__list-item"><a href="#">Rodrigues</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer__menu">
+          <div class="footer__menu-title">ADDITIONAL INFORMATION</div>
+          <ul class="footer__menu-list">
+            <li class="footer__list-item"><a href="#">About Us</a></li>
+            <li class="footer__list-item"><a href="#">Contact Us</a></li>
+            <li class="footer__list-item"><a href="#">How does it work?</a></li>
+            <li class="footer__list-item"><a href="#">Frequently Asked Questions</a></li>
+            <li class="footer__list-item"><a href="#">Deals.mu loyalty program</a></li>
+            <li class="footer__list-item"><a href="#">Promote your Business on BTP</a></li>
+          </ul>
+          <div class="footer__menu-subtitle">
+            Social Network
+            <div class="footer__menu-subtitle--links">
+              <a href="#"><img src="img/footer__icon1.svg" alt="icon"></a>
+              <a href="#"><img src="img/footer__icon2.svg" alt="icon"></a>
+              <a href="#"><img src="img/footer__icon3.svg" alt="icon"></a>
+            </div>
+          </div>
+        </nav>
+
+        <nav class="footer__menu">
+          <div class="footer__menu-title">LEGAL INFORMATION</div>
+          <ul class="footer__menu-list">
+            <li class="footer__list-item"><a href="#">Terms & Conditions</a></li>
+            <li class="footer__list-item"><a href="#">Disclaimer</a></li>
+            <li class="footer__list-item"><a href="#">Cancellation policy</a></li>
+            <li class="footer__list-item"><a href="#">Privacy</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__bottom-contacts">
+          <h3 class="footer__bottom-title">Contact Details</h3>
+          <div class="footer__bottom-contacts--main">
+            <span>Feel free to contact us by phone, email or by our contact form</span>
+            <p>9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States</p>
+            <p>Tel (business hours) : 269 1500<br>
+              Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)<br>
+              Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</p>
+            <p>cherly.lawson@example.com</p>
+          </div>
+        </div>
+        <div class="footer__bottom-send">
+          Send us a message
+          <form action="#" class="footer__bottom-form">
+            <input class="footer__bottom-input" type="text" placeholder="Your Full Name*">
+            <input class="footer__bottom-input" type="number" name="#" id="#" placeholder="Phone Number*">
+            <textarea class="footer__bottom-textarea" name="#" id="#" placeholder="Message"></textarea>
+            <a class="footer__bottom-button" href="#">send</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>new WOW().init();</script>
+</body>
+</html>
